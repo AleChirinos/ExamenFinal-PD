@@ -1,5 +1,5 @@
 # ExamenFinal-PD
-Examen fina- - Patrones de diseño.
+Examen final - Patrones de diseño.
 
 Nombre: Alejandra Gabriela Chirinos Valle
 
