@@ -11,7 +11,7 @@ public class Turista extends ITurista{
     public void visit(LaPaz laPaz) {
         Random random = new Random();
         System.out.println("------ ESTAMOS EN LA PAZ ------");
-        System.out.println("Nombre" + laPaz.nombre);
+        System.out.println("Nombre: " + laPaz.nombre);
         int montoneg = random.nextInt(monto/2);
         System.out.println("Dinero gastado: " + montoneg);
         monto-=montoneg;
