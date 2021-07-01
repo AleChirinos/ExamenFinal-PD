@@ -1,4 +1,4 @@
-package ExamenFinal.Ejercicio5Decorator.Decorator;
+package ExamenFinal.Ejercicio5Decorator;
 
 interface ICelular {
     int getPrecioTotal();

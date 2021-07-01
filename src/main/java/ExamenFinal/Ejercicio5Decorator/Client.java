@@ -1,4 +1,4 @@
-package ExamenFinal.Ejercicio5Decorator.Decorator;
+package ExamenFinal.Ejercicio5Decorator;
 
 public class Client {
 
@@ -11,9 +11,10 @@ public class Client {
         celular = new MemoriaExterna(celular, 50, 16);
 
         celular.operation();
-
-        System.out.println("Precio: " + celular.getPrecioTotal() + " Almacenamiento: " + celular.getAlmacenamientoTotal());
-
+        System.out.println();
+        System.out.println("---------------------------------------------------");
+        System.out.println("Precio final: " + celular.getPrecioTotal() + " Almacenamiento final: " + celular.getAlmacenamientoTotal());
+        System.out.println("---------------------------------------------------");
     }
 
 }

@@ -1,4 +1,4 @@
-package ExamenFinal.Ejercicio5Decorator.Decorator;
+package ExamenFinal.Ejercicio5Decorator;
 
 public class Celular implements ICelular {
     private enumMarcas enumMarcas;

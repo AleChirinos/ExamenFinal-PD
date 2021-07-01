@@ -1,4 +1,4 @@
-package ExamenFinal.Ejercicio5Decorator.Decorator;
+package ExamenFinal.Ejercicio5Decorator;
 
 public class MemoriaExterna extends Decorator{
     private String name;

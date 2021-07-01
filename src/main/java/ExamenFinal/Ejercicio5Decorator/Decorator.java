@@ -1,4 +1,4 @@
-package ExamenFinal.Ejercicio5Decorator.Decorator;
+package ExamenFinal.Ejercicio5Decorator;
 
 public abstract class Decorator implements ICelular {
     private ICelular componente;
