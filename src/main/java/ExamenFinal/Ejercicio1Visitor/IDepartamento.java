@@ -1,16 +1,16 @@
 package ExamenFinal.Ejercicio1Visitor;
 
 public abstract class IDepartamento {
-    protected String name;
+    protected String nombre;
     protected int numeroDeProvincias;
-    protected int numeroHab;
+    protected int numeroHabitantes;
     protected String clima;
     protected int dineroTurismo;
 
-    public IDepartamento(String name, int numeroDeProvincias, int numeroHab, String clima, int dineroT) {
-        this.name = name;
+    public IDepartamento(String nombre, int numeroDeProvincias, int numeroHabitantes, String clima, int dineroT) {
+        this.nombre = nombre;
         this.numeroDeProvincias = numeroDeProvincias;
-        this.numeroHab = numeroHab;
+        this.numeroHabitantes = numeroHabitantes;
         this.clima = clima;
         this.dineroTurismo = dineroT;
     }

@@ -1,8 +1,8 @@
 package ExamenFinal.Ejercicio1Visitor;
 
 public class LaPaz extends IDepartamento{
-    public LaPaz(String name, int numeroDeProvincias, int numeroHab, String clima, int dineroT) {
-        super(name, numeroDeProvincias, numeroHab, clima, dineroT);
+    public LaPaz(String name, int numeroDeProvincias, int numeroHabitantes, String clima, int dineroTurismo) {
+        super(name, numeroDeProvincias, numeroHabitantes, clima, dineroTurismo);
     }
 
     @Override

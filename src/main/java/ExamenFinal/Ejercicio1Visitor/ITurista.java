@@ -1,12 +1,12 @@
 package ExamenFinal.Ejercicio1Visitor;
 
 public abstract class ITurista {
-    protected String name;
+    protected String nombre;
     protected int monto;
     protected int ci;
 
-    public ITurista(String name, int monto, int ci) {
-        this.name = name;
+    public ITurista(String nombre, int monto, int ci) {
+        this.nombre = nombre;
         this.monto = monto;
         this.ci = ci;
     }

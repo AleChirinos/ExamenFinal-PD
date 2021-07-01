@@ -10,26 +10,29 @@ public class Turista extends ITurista{
     @Override
     public void visit(LaPaz laPaz) {
         Random random = new Random();
-        System.out.println("Visitando " + laPaz.name);
+        System.out.println("------ ESTAMOS EN LA PAZ ------");
+        System.out.println("Nombre" + laPaz.nombre);
         int montoneg = random.nextInt(monto/2);
-        System.out.println("El monto de dinero que gastare es de " + montoneg + "bs");
+        System.out.println("Dinero gastado: " + montoneg);
         monto-=montoneg;
-        System.out.println("Saldo restante: " + monto);
+        System.out.println("Saldo: " + monto);
     }
 
     @Override
     public void visit(Cochabamba cochabamba) {
-        System.out.println("Visitando " + cochabamba.name);
-        System.out.println("El monto de dinero que gastare es de " + 10*cochabamba.numeroHab/100 + "bs");
-        monto-=10*cochabamba.numeroHab/100;
-        System.out.println("Saldo restante: " + monto);
+        System.out.println("------ ESTAMOS EN COCHABAMBA ------");
+        System.out.println("Nombre: " + cochabamba.nombre);
+        System.out.println("Dinero gastado: " + cochabamba.numeroHabitantes*0.10);
+        monto-=cochabamba.numeroHabitantes*0.10;
+        System.out.println("Saldo: " + monto);
     }
 
     @Override
     public void visit(SantaCruz santaCruz) {
-        System.out.println("Visitando " + santaCruz.name);
-        System.out.println("El monto de dinero que gastare es de " + santaCruz.numeroDeProvincias/2 + "bs");
+        System.out.println("------ ESTAMOS EN SANTA CRUZ ------");
+        System.out.println("Nombre: " + santaCruz.nombre);
+        System.out.println("Dinero gastado: " + santaCruz.numeroDeProvincias/2);
         monto-=santaCruz.numeroDeProvincias/2;
-        System.out.println("Saldo restante: " + monto);
+        System.out.println("Saldo: " + monto);
     }
 }
